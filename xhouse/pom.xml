@@ -82,4 +82,23 @@
 		</dependency>
 	</dependencies>
 
+	<build>
+		<finalName>xhouse</finalName>
+		<plugins>
+			<plugin>
+				<groupId>com.njit.house</groupId>
+				<artifactId>xhouse</artifactId>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+					<encoding>UTF-8</encoding>
+					<showWarnings>false</showWarnings>
+					<showDeprecation>false</showDeprecation>
+				</configuration>
+			</plugin>
+		</plugins>
+
+	</build>
+
+
 </project>
